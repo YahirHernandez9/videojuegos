@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body{
+    background-color:khaki;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    font-family: 'Gloria Hallelujah';
+    font-size: 500%;
+    color:mediumturquoise;
+    text-align: center;
+
+}
+
+
+hr{
+    /*border: requiere el tamaño de la linea, color y el tipo de linea*/
+    border:1px dotted blue ;
+}
+
+ul{
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+}
+
+ul > li {
+    margin-right: 100px;
+    position: relative;
+    left: 700px;
+
+}
+
+ul > li > a {
+    /*Remover*/
+    text-decoration: none;
+    color:slategrey;
+    
+    
+}
+
+
+.audiovideo{
+    background-color:gold ;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: center;
+    
+}
+
+video{
+    width: 100%;
+    right: 100%;
+}
+
+
+
+ul{
+    font-size: 30px;
+    background-color:bisque;
+    font-family: cursive;
+}
+
+.columna {
+    float:none;
+    width: 50px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 15px;
+  }
+  
+  .fila {
+    content: "";
+    clear:left;
+    display:inline-table;
+  }
+
+  .columna1{
+    float:none;
+    width: 150px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 15px;
+  }
+
+  .fila1 {
+    content: "";
+    clear:left;
+    display:inline-table;
+
+  }
